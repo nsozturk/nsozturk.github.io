@@ -3,7 +3,7 @@ title: Depremsel App
 author: enes_ozturk
 date: 2023-04-16 01:30:00 +0000
 categories: [Blogging]
-tags: [projects,Depremsell App]
+tags: [projects,DepremsellApp]
 ---
 
 # DepremselApp
