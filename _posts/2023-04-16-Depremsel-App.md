@@ -1,7 +1,7 @@
 ---
 title: Depremsel App
 author: Enes Ozturk
-date: 2023-04-16 01:30:00 +0000
+date: 2023-04-14 01:30:00 +0000
 categories: [Blogging, Projects]
 tags: [projects]
 ---
