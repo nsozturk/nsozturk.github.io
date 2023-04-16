@@ -3,6 +3,11 @@
 icon: fas fa-info-circle
 order: 4
 ---
+## who am i?
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+hello there.i am an ios developer.welcome to my blog that i use as a blog.
+
+>my github page link : <https://github.com/nsozturk>
+
+>my linkedin file link : <https://www.linkedin.com/in/enes-%C3%B6zt%C3%BCrk-00b2529b/>
+
