@@ -21,6 +21,11 @@ Depremsel App is an iOS application that displays a list of recent earthquakes i
 
 ## Screenshots
 
+<div>
+<img style: "inline-block; float: left" src="https://github.com/nsozturk/DepremselApp/raw/main/assets/depremsellapp-1.png" width="234" height="506" />
+<img style: "inline-block; float: left" src="https://github.com/nsozturk/DepremselApp/raw/main/assets/depremsellapp-2.png" width="234" height="506" />
+</div>
+
 
 
 ## Features
