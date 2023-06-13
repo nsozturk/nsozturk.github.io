@@ -1,45 +1,50 @@
 ---
 title: Depremsel App
 author: Enes Ozturk
-date: 2023-06-12 01:30:00 +0000
+date: 2023-04-14 01:30:00 +0000
 categories: [Blogging, Projects]
 tags: [projects]
 ---
 
-# Privacy Policy for ShelfMate
+# DepremselApp
+- [project link](https://github.com/nsozturk/DepremselApp "depremselApp")
+## Overview
+
+Depremsel App is an iOS application that displays a list of recent earthquakes in a table view. Each earthquake is colored according to its magnitude, with stronger earthquakes appearing in reddish colors. The app also allows users to click on a cell to view more details about a particular earthquake.
+
+## Installation
+
+1. Clone or download the repository to your local machine.
+2. Open the <span style="color:red ">*DepremselApp.xcodeproj*</span> file in Xcode.
+3. Select a simulator or a physical device to run the app on.
+4. Click the "Run" button in Xcode to build and run the app.
+
+## Screenshots
+
+![Desktop View](https://github.com/nsozturk/DepremselApp/raw/main/assets/depremsellapp-1.png){: width="234" height="506" }{: .normal }
+![Desktop View](https://github.com/nsozturk/DepremselApp/raw/main/assets/depremsellapp-2.png){: width="234" height="506" }{: .normal }
 
 
-Effective Date: [06.13.2022]
 
-This Privacy Policy governs the manner in which ShelfMate ("we," "us," or "our") collects, uses, maintains, and discloses information collected from users (referred to as "you" or "your") of the ShelfMate mobile application ("the App"). This Privacy Policy applies to the App and all related services offered by ShelfMate.
 
-Information We Collect
+## Features
 
-ShelfMate is designed to provide a seamless book search and open functionality for users. We do not collect any personally identifiable information or any other data that can be used to personally identify you.
+- View a list of recent earthquakes in a table view
+- Sort the earthquakes by date or magnitude.
+- Color-code the earthquakes by magnitude
+- Click on a cell to view more details about a particular earthquake
+- View earthquake on a map
 
-The App may request your permission to access the following features on your device:
+## Todo
 
-Library Access: We may request access to your device's library or book collection to facilitate the search and open functionality. This access is used solely for the purpose of enabling you to open your favorite books in iBooks.
-How We Use Collected Information
+[ ] Add a notification when the "Fetch" button is pressed, if there are earthquakes with a spesific magnitude.
 
-As we do not collect any personal information, the information obtained through the Library Access feature is used solely within the App to provide the intended functionality. We do not track or record any data about the books you search for or open.
+[ ] Display earthquake on a map which has turkey's all faults drawin.
 
-Third-Party Services
+## Credits
 
-ShelfMate may integrate with third-party services, such as iBooks, to facilitate the book opening functionality. Please note that the collection, use, and disclosure of your information by such third-party services are governed by their respective privacy policies. We encourage you to review the privacy policies of these third-party services before using them in conjunction with the App.
+The earthquake data is sourced from the Kandilli observatory and earthquake research institute (KOERI)
 
-Data Security
+The app also uses the Kandilli Rasathanesi API (https://github.com/orhanayd/kandilli-rasathanesi-api) to retrieve earthquake data in Turkey. We would like to thank Orhan AYDIN (https://github.com/orhanayd) for creating and maintaining this API.
 
-We take reasonable measures to protect against unauthorized access, alteration, disclosure, or destruction of any data we collect. However, please note that no method of transmission over the internet or electronic storage is entirely secure. Therefore, while we strive to use commercially acceptable means to protect your information, we cannot guarantee its absolute security.
-
-Changes to This Privacy Policy
-
-We reserve the right to update or change this Privacy Policy at any time. Any changes will be posted to the App and will become effective immediately. It is your responsibility to review this Privacy Policy periodically to stay informed about how we collect and use your information.
-
-Your Consent
-
-By using ShelfMate, you signify your acceptance of this Privacy Policy. If you do not agree with this Privacy Policy, please do not use the App. Your continued use of the App following the posting of changes to this Privacy Policy will be deemed as your acceptance of those changes.
-
-Contact Us
-
-If you have any questions about this Privacy Policy or the practices of ShelfMate, please contact us at [en.esozturk@icloud.com].
+We would also like to thank Mehmet Ali Pekcan (https://github.com/mapelse) for creating and sharing the Fay Hatları project (https://github.com/mapelse/fayHatlari), which helped us to include all of the fault lines in Turkey in the app.
